@@ -7,4 +7,4 @@ lint:
 	pylint --disable=R,C math_ops.py
 
 test:
-	python -m pytest -vv --cov=math_ops test_math_ops.py
+	pytest -v test_math_ops.py
